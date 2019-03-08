@@ -39,8 +39,7 @@ function clickFunction() {
     if (playerOne == true) {
       board[clicked] = "O";
       playerOne = false;
-    }
-    else {
+    } else {
       board[clicked] = "X";
       playerOne = true;
     }
