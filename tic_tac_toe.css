@@ -1,0 +1,22 @@
+#gameboard {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2px;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: darkslategray;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 204px;
+  height: 204px;
+  background-color: white;
+  color: darkslategray;
+  font-size: 60pt;
+}
